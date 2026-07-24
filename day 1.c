@@ -1,4 +1,4 @@
-/*My name,groupand college*/
+/*My name,group and college*/
 #include <stdio.h>
 void main()
 {
