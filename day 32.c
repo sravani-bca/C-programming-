@@ -20,6 +20,7 @@ int main()
 
 int greatNum(int x, int y)    // function definition
 {
+
     if(x > y)
     {
         return x;
