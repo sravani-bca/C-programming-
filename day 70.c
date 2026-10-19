@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int addition(int a, int b);
+
+int main()
+{
+    int num1, num2, result;
+
+    printf("Enter any two integer numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    result = addition(num1, num2);
+
+    printf("Sum = %d", result);
+
+    return 0;
+}
+
+int addition(int a, int b)
+{
+    return (a + b);
+}
